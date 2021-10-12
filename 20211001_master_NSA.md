@@ -4,34 +4,99 @@ subtitle: Comment faire de la veille et trouver de l'information sur un sujet
 author: Damien Belvèze
 ---
 Objectifs :
+
+- vérifier une allégation
+- connaître quelques sources d'information utiles dans la discipline (droit + sciences de la santé)
 - débuter une revue de littérature
 - automatiser sa Veille
 
 # introduction au cours
-Passer la vidéo de Thinkerview avec Guillaume Brusset
-https://youtu.be/lXXp-PVQ0HQ?t=1051
-La vidéo débute à 17 min 31 sec, l'arrêter à l& fin de la 18ème minute (18m54s)
-L'extrait a également été enregistré sur le serveur de Rennes 1 :
-https://video.univ-rennes1.fr/permalink/v1261bdb9aefbvr6s7c0/iframe/
+
+On se contente de se présenter et d'indiquer les objectifs de la séance.
+
+## la matière de départ : un extrait d'interview
+
+Note pour l'animateur (pas nécessaire à dire pendant la séance) :
+Thinkerview est un média web qui réalise des formats longs (2 ou 3 heures) d'entretiens avec des personnalités proposées par la communauté (au moins en partie)
+Cette chaîne est tenue par des professionnels qui ne se disent pas journalistes (plutôt assez critiques à l'égard de la manière dont l'information est calibrée et vendue aujourd'hui) et qui sont proches des milieux hackers.
+Pour en savoir un peu plus sur cette chaîne, consulter la vidéo de Victor Ferry qui mentionne notamment cette entretien avec Christophe Brusset.
+
+La vidéo qui sert d'introduction est disponible en streaming [depuis le serveur de Rennes 1](https://video.univ-rennes1.fr/videos/extrait-dune-interview-de-christophe-brusset-thinkerview/#share). Cette vidéo capture uniquement les trois minutes utiles pour le cours (mais tout l'entretien est très intéressant à suivre sur Thinkerview).
+
+Si la formation a lieu en présentiel, il suffit de jouer cette vidéo sur un logiciel lecteur de vidéo (VLC par exemple)
+
+Si la formation a lieu à distance, il faut prendre les précautions suivantes pour donner aux étudiants la meilleure expérience possible lors de la séance. Il s'agit notamment d'éviter des problèmes de synchronisation.
+Que l'on joue la vidéo depuis un lecteur en local sur VLC ou bien depuis un site en ligne comme [celui-ci](https://video.univ-rennes1.fr/videos/extrait-dune-interview-de-christophe-brusset-thinkerview), la vidéo doit être décodée en amont une première fois puis elle l'est une deuxième fois lorsqu'elle est présentée à travers Teams (envoi de la machine locale aux serveurs de Microsoft) et elle l'est une troisième fois quand les étudiantsy assistent depuis leur ordinateur à travers leur connexion à Teams
+
+![circuit encodage / décodage de la vidéo](images/circuit.png)
+
+Pour diffuser la vidéo en temps réel aux étudiants et s'assurer qu'ils pourront l'entendre suffisamment bien même avec un débit moyen, suivre la méthode indiquée dans [ce tutoriel](https://techcommunity.microsoft.com/t5/microsoft-mechanics-blog/how-to-present-videos-in-microsoft-teams-meetings-without-lag/ba-p/2482107)
+
+ouvrir powerpoint en ligne, créer une diapositive et y insérer une vidéo en entrant l'[URL de la vidéo sur Youtube à partir du moment où elle est pertinente pour le cours](https://youtu.be/lXXp-PVQ0HQ?t=1051)
+au moment de la séance où vous l'avez prévu, jouer [cette vidéo](https://uniren1-my.sharepoint.com/:p:/g/personal/damien_belveze_univ-rennes1_fr/EUk-TAkdRyJLhVJ9H5iIXA4B3omcCn8ywVYk46h65q2tyQ?e=oBBq53) depuis powerpoint.
+
+## poser la problématique
 
 Poser la question aux étudiants :
-*quelle question d'ordre scientifique pose cette déclaration de Christophe Brusset ?*
+*quelles questions posent selon vous cette allégation de Christophe Brusset ?*
 
-Réponse :
-Il peut y en avoir deux :
-1. y a t-il une différence autre que formelle et juridique entre additifs et auxiliaires technologiques (cette différence a t-elle un sens du point de vue biologique)
-2. S'il n'y en a pas, quel risque  l'ingestion de ces additifs non déclarés font courir aux consommateurs ?
+Réponses possibles :
 
-on va d'abord vérifier si dans le droit européen cette différence entre additifs (à déclarer) et auxiliaires technologique (qu'on peut ne pas déclarer) existe ou pas.
+1. est-il vrai que le droit distingue des autres additifs les auxiliaires technologiques et écarte ces derniers de l'obligation de déclaration sur l'emballage (= question de vérification de l'information)
+1. y a t-il une différence autre que formelle et juridique entre additifs et auxiliaires technologiques (cette différence a t-elle un sens du point de vue biologique) = question exploratoire
+2. S'il n'y en a pas, quel risque  l'ingestion de ces additifs non déclarés font courir aux consommateurs ? = autre question exploratoire.
+
+on va d'abord traiter la première question et vérifier si dans le droit européen cette différence entre additifs (à déclarer) et auxiliaires technologique (qu'on peut ne pas déclarer) existe ou pas.
 Quelle réglement européen gère cette différence de statut entre additif et auxilaire technologique ?
+Question sous-jacente : où en ligne trouver le droit européen ?
 
-# Mots-clé
+note: [le travail a déjà été fait](https://captainfact.io/videos/gl7D?statement=3579) par les fact-checkers qui font partie des habitués de la chaîne Thinkerview
 
-https://eur-lex.europa.eu : information consommateur additifs "auxiliaire technologique"
+# recherche juridique
 
-L'article 20 indique qu'on n'est pas obligé de déclarer un additif s'il est utilisé en tant qu'"auxiliaire technologique". Donc il n'y a pas de différence de nature entre les deux, mais une différence de fonction. Il s'agit d'additifs tantôt considérés comme ingrédients, tantôt comme aides à la production. Mais dans les deux cas, ces additifs sont absorbés. La quantité résiduelle dans le produit ingéré fait la différence.
+sur le site https://eur-lex.europa.eu
+entrer les mots-clé suivants : "additifs alimentaires" étiquetage "auxiliaires technologiques"
+filtrer par la forme de document "réglement"
+On obtient 18 résultats. On va plutôt chercher des textes génériques et éliminer tout ce qui comporte des éléments un peu spécifique qui réduisent le champ de la question (aluminium, animaux, emballage plastique, agriculture bio)
+Restent deux résultats avec un niveau de généralité satisfaisant :
 
-enregistrer dans Zotero ce réglement, ajouter une note.
+- [1169/2011](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32011R1169&qid=1634059092820)
+- [1133/2008](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32008R1333&qid=1634059092820)
+
+chercher dans les deux textes avec Ctrl+F "auxilaires technologiques"
+
+C'est le réglement 1133/2008 qui nous donne la solution. Le texte indique que les additifs doivent être déclarés sur l'emballage MAIS que les auxiliaires technologiques ne sont pas compris dans cette obligation :
+
+> Les substances qui ne sont pas consommées comme aliments en tant que tels mais qui sont délibérément utilisées dans la transformation d’aliments, ne subsistent qu’à l’état de résidu dans le produit final et n’ont aucun effet technologique sur celui-ci (auxiliaires technologiques) n’entrent pas dans le champ d’application du présent règlement. (article 6)
+
+
+# introduction à la veille
+
+Poser la questionn de l'évolution de la réglementation européenne sur le sujet des additifs.
+Si la loi change, comment en serai-je informé ?
+Comment faire pour que l'information vienne à moi et non le contraire.
+
+Expliquer avec un schéma comment le flux d'information peut-être inversé du site web vers l'utilisateur.
+
+notion de flux. Définition d'un flux RSS
+
+Demander aux étudiants de charger l'[extension Feedbro](https://nodetics.com/feedbro/) dans leur navigateur
+
+Avec un lecteur de flux RSS, on peut faire une veille dans les domaines suivants :
+
+- nouveautés paraissant sur un site d'information
+- nouvel article indexé dans une base de données
+- nouveau tweet sur un sujet qui nous intéresse
+liste non exhaustive.
+
+Les flux RSS sont partout mais ils sont relativement invisibles.
+S'inscrire à une chaîne de podcasts, c'est aussi utiliser un flux RSS qui nous envoie les derniers épisodes parus.
+
+Conserver dans Feedbro le flux RSS relatif à la requête dans Eur-lex.
+
+
+# additifs et hyperactivité : un
+
 
 On va faire une recherche sur l'évaluation des risques pour la santé de certains auxilaires technologiques et notamment leur implication éventuelle dans les troubles de l'attention.
 
